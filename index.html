@@ -5,21 +5,111 @@
     <title>Title</title>
 </head>
 <body>
-    <header class="main-header">
-        <nav class="main-nav">
-            <ul class="main-nav__list">
-                <li class="main-nav__item">
-                    <a class="main-nav__logo" href="#"><img src="" alt="Мобильное лого"></a>
-                    <button class="main-nav__toggle"></button>
-                </li>
-                <li class="main-nav__item"><a href="#">Каталог товаров</a></li>
-                <li class="main-nav__item"><a href="#">Вязание на заказ</a></li>
-                <li class="main-nav__item"><a href="#"><img src="" alt="Полноэкранное лого"></a></li>
-                <li class="main-nav__item"><a href="#">Поиск по сайту</a></li>
-                <li class="main-nav__item"><a href="#">Корзина: пока пуста</a></li>
-            </ul>
-            <p class="main-nav__advantage">Бесплатная доставка по России</p>
-        </nav>
-    </header>
+<header class="main-header">
+    <nav class="main-nav">
+        <ul class="main-nav__list">
+            <li class="main-nav__item">
+                <a class="main-nav__logo" href="#"><img src="" alt="Мобильное лого"></a>
+                <button class="main-nav__toggle"></button>
+            </li>
+            <li class="main-nav__item"><a href="#">Каталог товаров</a></li>
+            <li class="main-nav__item"><a href="#">Вязание на заказ</a></li>
+            <li class="main-nav__item"><a href="#"><img src="" alt="Полноэкранное лого"></a></li>
+            <li class="main-nav__item"><a href="#">Поиск по сайту</a></li>
+            <li class="main-nav__item"><a href="#">Корзина: пока пуста</a></li>
+            <li class="main-nav__item"><a href="#">Новые поступления</a></li>
+            <li class="main-nav__item"><a href="#">Распродажа</a></li>
+        </ul>
+        <p class="main-nav__advantage">Бесплатная доставка по России</p>
+    </nav>
+</header>
+<main>
+    <section class="first-screen">
+        <h1>Милые штуки ручной
+            работы для дома</h1>
+        <ul class="first-screen__products-list">
+            <li class="first-screen__products-item">Предметы интерьера</li>
+            <li class="first-screen__products-item">Детские игрушки</li>
+        </ul>
+    </section>
+    <section class="top-product">
+        <p class="top-product__explanation-desktop">Товар недели</p>
+        <h1>Вязаные корзинки</h1>
+        <p class="top-product__explanation">Товар недели</p>
+        <p class="top-product__description">Экологически чистая пряжа, ручная работа.
+            Доступны в шести расцветках, и трех размерах.</p>
+        <table class="top-product__list">
+            <tr>
+                <td class="top-product__field">Цвет:</td>
+                <td class="top-product__value">"Тиффани"/серый</td>
+            </tr>
+            <tr>
+                <td class="top-product__field">Диаметр:</td>
+                <td class="top-product__value">25 см</td>
+            </tr>
+            <tr>
+                <td class="top-product__field">Высота:</td>
+                <td class="top-product__value">15 см</td>
+            </tr>
+        </table>
+        <img src="#" alt="Вязаные корзинки" class="top-product__image">
+        <p class="top-product__price">Цена:990 руб.</p>
+        <button class="top-product__button button">Заказать</button>
+    </section>
+    <section class="about">
+        <h1>Коротко о нас:</h1>
+        <ul class="about__list">
+            <li class="about__item">Экологически чистые материалы</li>
+            <li class="about__item">Скандинавский стиль по российской цене</li>
+            <li class="about__item">Увеличивает лайки на фотографиях</li>
+            <li class="about__item">Связано вручную с любовью и умилением</li>
+            <li class="about__item">Поддержка отечественного производителя</li>
+            <li class="about__item">Поставляется в подарочной упаковке</li>
+        </ul>
+    </section>
+    <section class="reviews">
+        <h1>Отзывы</h1>
+        <div class="reviews__list">
+            <div class="reviews__item">
+                <blockquote class="reviews__text">Я молодая мама, но всё равно фотографии не набирали и
+                    близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила
+                    аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также
+                    набирают больше лайков!
+                </blockquote>
+                <p class="reviews__author">Анастасия Красильникова </p>
+                <cite class="reviews__nickname">@misssssiskras</cite>
+            </div>
+            <button class="reviews__slider-button reviews__slider-button--back button">Назад</button>
+            <button class="reviews__slider-button reviews__slider-button--next button">Вперед</button>
+        </div>
+        <button class="reviews__button-write">Написать</button>
+    </section>
+    <section class="contacts">
+        <table class="contacts__list">
+            <tr>
+                <td class="contacts__field">e-mail:</td>
+                <td class="contacts__value">info@mimimishkashop.ru</td>
+            </tr>
+            <tr>
+                <td class="contacts__field">адрес:</td>
+                <td class="contacts__value">г. Санкт-Петербург,<br>
+                    ул. Большая Конюшенная,<br>
+                    д. 19/8, офис 101</td>
+            </tr>
+        </table>
+        <img src="#" alt="Карта" class="contacta__map">
+        <button class="contacta__button button">Напишите нам</button>
+    </section>
+    <footer class="main-footer">
+        <a class="main-footer__logo" href="#"><img src="" alt="Нижнее лого"></a>
+        <ul class="main-footer__social-list">
+            <li class="main-footer__social-item main-footer__social-item--instagram"></li>
+            <li class="main-footer__social-item main-footer__social-item--facebook"></li>
+            <li class="main-footer__social-item main-footer__social-item--twitter"></li>
+        </ul>
+        <p class="main-footer__created">Разработано:</p>
+        <a class="main-footer__created-link" href="#"><img src="#" alt="Создатель"></a>
+    </footer>
+</main>
 </body>
 </html>
